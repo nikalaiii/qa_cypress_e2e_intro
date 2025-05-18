@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-const { generateUser } = require('../support/gemerateUser');
+const { generateUser } = require('../support/generateUser');
 
 describe('Sign In page', () => {
   const { userEmail, password } = generateUser();
